@@ -58,7 +58,7 @@
     font-size: 30px;
     color: #fff;
     font-family:  'Merienda', cursive;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
   }
   #container {
     display: flex;
@@ -503,9 +503,3 @@ width: 100%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
 }
 
-.navbar.sticky .logo,
-.navbar.sticky li a{
-    /* color: #000000; */
-
-
-}
