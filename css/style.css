@@ -14,8 +14,8 @@
 8. Footer
 ----------------*/
 body{
-    /* overflow-x: hidden; */
     width: 100vw;
+    overflow-x: hidden;
 }
 /* 1. Genral */
 *{
