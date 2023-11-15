@@ -13,7 +13,10 @@
 7. Contact
 8. Footer
 ----------------*/
-
+body{
+    /* overflow-x: hidden; */
+    width: 100vw;
+}
 /* 1. Genral */
 *{
     box-sizing: border-box;
@@ -41,7 +44,10 @@
     --text-white: #fff;
 }
 
-
+.banner_wrapper{
+    width: 100%;
+    padding: 250px 0px 120px 0px;
+    justify-content: end;}
 /* Loder */
 
 #page {
@@ -66,7 +72,13 @@
     align-items: center;
     position: relative;
   }
-  
+  .hero_img{
+    max-width: 456PX;
+    width: 100%;
+  }
+  .hero_img img{
+    width: 100%;
+  }
   #h3 {
     color: white;
   }

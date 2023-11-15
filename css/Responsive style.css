@@ -24,9 +24,7 @@
     .header_wrapper .nav-item .nav-link{
         margin-top: 15px;
     }
-    .banner_wrapper{
-        padding: 200px 0px;
-    }
+
 
 
     /* About */
@@ -46,7 +44,12 @@
 
 
 @media (max-width:767.99px){
-
+    .banner_wrapper{
+        padding: 119px 0px 50px 0px;
+    }
+.footer-form-image{
+    display: none;
+}
     /* custom css */
     h1{
         font-size: 40px;
